@@ -31,9 +31,9 @@
 /* Maybe better to have this as a focus since the removal of the adwaita engine */
 *:focus {
 	outline-color: alpha(@theme_text_color, 0.3);
-	outline-style: dashed;
+	/* outline-style: dashed; */
 	outline-offset: -3px;
-	outline-width: 1px;
+	outline-width: 0px;
 	outline-radius: 2px;
 }
 
